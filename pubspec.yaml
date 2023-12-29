@@ -1,0 +1,52 @@
+name: mapbox_judeu
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cached_network_image: ^3.3.0
+  carousel_slider: ^4.2.1
+  dio: ^5.4.0
+  flutter_dotenv: ^5.1.0
+  flutter_launcher_icons: ^0.11.0
+  location: ^5.0.3
+  mapbox_gl: ^0.16.0
+  shared_preferences: ^2.2.2
+  flutter_svg: ^2.0.9
+  ionicons: ^0.2.2
+  firebase_core: ^2.22.0
+  firebase_auth: ^4.13.0
+  cloud_firestore: ^4.13.0
+  firebase_auth_platform_interface: ^7.0.4
+  flutter_map: ^6.1.0
+  latlong2: ^0.9.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/icon.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icon/
+    - assets/image/
+    - assets/config/
+
+  fonts:
+      - family: 'Urbanist'
+        fonts: 
+         - asset: assets/fonts/Urbanist-Regular.ttf
+
